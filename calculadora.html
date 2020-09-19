@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device=width, initial-scale=1.0">
+    <title>Calculadora Obetivos</title>
+
+    <link rel="stylesheet" type="text/css" href="css/estilo.css">
+
+
+</head>
+<body>
+    <main>
+        <header><h1>JUROS COMPOSTOS</h1> </header>
+        <form id="input-area">
+            <div class="field">
+                <label for="AporteMensal">Aporte Mensal</label>
+                <input type="text" name="AporteMensal" id="AporteMensal" placeholder="Aporte Mensal">
+            </div>
+            <div class="field">
+                <label for="Tempo">Tempo</label>
+                <input type="text" name="Tempo" id="Tempo" placeholder="Tempo em meses">
+            </div>
+            <div class="field">
+                <label for="RendimentoMensal">Rendimento Mensal</label>
+                <Input type="text" name="RendimentoMensal" id="RendimentoMensal" placeholder="RendimentoMensal">
+            </div>  
+        </form>
+        <button id='calcular'>
+            Calcular Valor Acumulado
+
+        </button>
+        <div class="result" id='resultado'>
+
+        </div>
+
+        &nbsp
+
+        <header> <h1> QUANTO PRECISO INVESTIR POR MÊS </h1></header>
+        <form id="input-area"></form>
+            <div class="field">
+                <label for="qualseuobjetivo"> Qual seu Objetivo?</label>
+                <Input type="text" name="qualseuobjetivo" id="qualseuobjetivo" placeholder="Ex: Carro, Casa, Viagem">
+            </div>
+            <div class="field">
+                <label for="ValordoObjetivo">Valor do Objetivo</label>
+                <input type="text" name="ValordoObjetivo" id="ValordoObjetivo" placeholder="Valor do Objetivo">
+            </div>
+            <div class="field">
+                <label for="Rendimento">Rendimento Mensal</label>
+                <input type="text" name="Rendimento" id="Rendimento" placeholder="Rendimento Mensal">
+            </div>
+            <div class="field">
+                <label for="Tempo2">Tempo</label>
+                <Input type="text" name="Tempo2" id="Tempo2" placeholder="EM MESES">
+            </div>  
+        </form>
+        <button id='calcular2'>
+            Calcular Valor a ser investido por mes
+
+        </button>
+        <div class="result2" id='resultado2'>
+
+        </div>
+    </main>
+
+    <script src="./js/Codigo.js"></script>
+</body>
+</html>

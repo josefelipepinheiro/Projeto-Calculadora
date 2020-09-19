@@ -1,0 +1,41 @@
+main {
+    background-color: rgb(35, 122, 172);
+    max-width: 500px;
+    width: 70%;
+    padding: 20px;
+    position:absolute;
+    left:50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+div.field {
+    text-align: center;
+}
+
+button{
+    color: black;
+    box-shadow: 2px 2px #888888;
+    margin: 10px;
+    border-radius: 10px;
+    font-size: 1rem;
+    border: none;
+    padding: 1.1rem;
+    right:50%;
+    
+    
+}
+
+input::placeholder{
+    color: #ccc;
+}
+
+label{
+    color: #efd800;
+    background-color:white;
+}
+
+#input-area {
+    justify-content: center;
+    justify-content: center;
+}
